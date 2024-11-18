@@ -6,6 +6,14 @@
     <title>Mini Experimento</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .modal-success .modal-content {
+            border: 3px solid #198754; /* Verde para éxito */
+        }
+        .modal-fail .modal-content {
+            border: 3px solid #dc3545; /* Rojo para fallo */
+        }
+    </style>
 </head>
 <body>
     <div class="container mt-5 text-center">
@@ -15,7 +23,6 @@
 
     <!-- Bootstrap JS + Popper.js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Script personalizado -->
     <script src="script.js"></script>
 </body>
 </html>
